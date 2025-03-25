@@ -5,11 +5,11 @@ import PackageDescription
 
 let package = Package(
     name: "SimpleSPM",
-    products: [.library(name: "SimpleSPM", targets: ["SimpleSPM"])],
+    products: [.library(name: "simplespm", targets: ["CommandLineTools"])],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .executableTarget(
-            name: "SimpleSPM"),
+            name: "CommandLinetools"),
     ]
 )
